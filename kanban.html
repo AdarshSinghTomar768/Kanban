@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanban</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="top">
+      <div id="buttons">
+        <div id="red">Red</div>
+        <div id="blue">Blue</div>
+        <div id="green">Green</div>
+        <div id="purple">Purple</div>
+      </div>
+      <div id="func">
+        <div id="add">
+          <p>Add</p>
+          <i class="ri-sticky-note-add-fill"></i>
+        </div>
+        <div id="delete">
+          <p>Delete</p>
+          <i class="ri-delete-bin-fill"></i>
+        </div>
+      </div>
+    </div>
+    <div id="main">
+      <div id="cont">
+        <textarea id="txt" placeholder="Enter your text..."></textarea>
+        <div id="tasks">
+            <p>Select Task priority: </p>
+          <div id="Red" class="priority active"></div>
+          <div id="Blue" class="priority"></div>
+          <div id="Green" class="priority"></div>
+          <div id="Purple" class="priority"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
